@@ -44,11 +44,16 @@ body {
 .cartão__conteudo p {
     margin-top: 1rem;
     padding: 2rem;
+    margin-top: 2rem;
 }
 
 .cartão__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
+    position: absolute;
+    height: 90%;
+    width: 85%;
+    margin-top: 4rem;
 }
 
 .cartão__conteudo__resposta p {
@@ -63,6 +68,14 @@ body {
 .cartão__conteudo__pergunta,
 .cartão__conteudo__resposta{
     backface-visibility: hidden;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.cartão__conteudo__resposta {
+    transform: rotateY(180deg);
 }
 
 footer {
