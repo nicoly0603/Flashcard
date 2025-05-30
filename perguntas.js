@@ -52,3 +52,10 @@ criaCartao(
     'Michael Jordan.'
 )
 
+criaCartao(
+    'NATAÇÃO',
+    'O que é nado borboleta?',
+    'É uma técnica de natação onde o nadador move as pernas e os braços juntos, imitando o movimento de asas de uma borboleta.'
+)
+
+criaCartão
