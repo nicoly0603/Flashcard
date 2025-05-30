@@ -108,3 +108,14 @@ footer p {
     margin-top: 0.5rem;
 }
 
+
+@media (max-width: 560px) {
+
+    body {
+        background-color: #d83979;
+    }
+
+    .cartão {
+        flex: 1 0 calc(100% - 1rem)
+    }
+}
