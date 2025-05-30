@@ -72,7 +72,7 @@ body {
     font-weight: 700;
 }
 
-.cartão:hover .cartão__conteudo {
+.cartão.active .cartão__conteudo {
     transform: rotateY(180deg);
 }
 
