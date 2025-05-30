@@ -61,7 +61,7 @@ body {
 
 .cartão__conteudo__pergunta p {
     color: var(--text-color);
-    font-weight: 500;
+    font-weight: 750;
     position: absolute;
     height: 90%;
     width: 85%;
@@ -70,7 +70,7 @@ body {
 
 .cartão__conteudo__resposta p {
     color: var(--card-back-color);
-    font-weight: 700;
+    font-weight: 100;
 }
 
 .cartão.active .cartão__conteudo {
@@ -116,14 +116,16 @@ footer p {
     }
 
     .cartão {
-        flex: 1 0 calc(50% - 1rem)
+        flex: 1 0 calc(50% - 1rem);
+        padding: 2rem;
     }
 
     .cartão__conteudo h3 {
-    font-size: 4vw;
+    font-size: 3.5vw;
     }
 
     .cartão__conteudo p {
         font-size: 5vw;
+        padding: 0rem;
     }
 }
