@@ -21,6 +21,13 @@ body {
     height: 15rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
+    width: 300px;
+  padding: 15px;
+  background-color: #ee6ba2cb;
+  border: 1px solid #ee6ba2cb;
+  border-radius: 15px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
 }
 
 .cartão__conteudo {
@@ -36,7 +43,7 @@ body {
     color: var(--text-color);
     border: 2px solid var(--text-color);
     text-align: left;
-    padding: 0.8rem;
+    padding: 1rem;
     position: absolute;
     margin: 0.6rem;
     border-radius: 1.8rem;
