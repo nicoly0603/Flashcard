@@ -6,6 +6,12 @@ criaCartao(
 
 criaCartao(
     'ATLETISMO',
+    'O que é salto em altura?',
+    'O salto em altura é uma modalidade de atletismo onde o atleta deve saltar sobre uma barra horizontal, utilizando técnicas específicas para superar a altura desejada.'
+)
+
+criaCartao(
+    'ATLETISMO',
     'O que é corrida de revezamento?',
     'A corrida de revezamento é uma prova do atletismo realizada em equipes com quatro corredores. Os atletas devem revezar entre si no transporte de um bastão durante o percurso de corrida.'
 )
