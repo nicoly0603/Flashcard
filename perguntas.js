@@ -58,4 +58,14 @@ criaCartao(
     'É uma técnica de natação onde o nadador move as pernas e os braços juntos, imitando o movimento de asas de uma borboleta.'
 )
 
-criaCartão
+criaCartao(
+    'NATAÇÃO',
+    'Qual é o traje adequado para particar natação?',
+    'Para mulheres, maiô, e para homens, sunga. Preferencialmente feitos de poliamida.'
+)
+
+criaCartao(
+    'NATAÇÃO',
+    'Quantos metros tem uma piscina olímpica?',
+    'Tem 50m de comprimento, 25m de largura, e profundidade mínima de 2m. E deve ser dividida em raias de 2,5m de largura, para ter um espaço bom para as provas.'
+)
