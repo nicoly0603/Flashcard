@@ -116,6 +116,14 @@ footer p {
     }
 
     .cartão {
-        flex: 1 0 calc(100% - 1rem)
+        flex: 1 0 calc(50% - 1rem)
+    }
+
+    .cartão__conteudo h3 {
+    font-size: 4vw;
+    }
+
+    .cartão__conteudo p {
+        font-size: 5vw;
     }
 }
